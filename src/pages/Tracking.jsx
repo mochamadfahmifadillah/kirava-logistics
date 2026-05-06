@@ -1,28 +1,25 @@
 import { useState } from "react";
 import { getTracking } from "../features/tracking/trackingAPI";
+import Input from "../components/ui/Input";
+import Button from "../components/ui/Button";
 
 export default function Tracking() {
   const [id, setId] = useState("");
-  const [data, setData] = useState(null);
-
-  const handleTrack = async () => {
-    const result = await getTracking(id);
-    setData(result);
-  };
 
   return (
-    <div style={{ padding: "40px" }}>
-      <h1>Tracking</h1>
+    <div className="min-h-screen bg-[#0A1F44] text-white flex flex-col items-center justify-center">
+      
+      <h1 className="text-3xl mb-6">Track Your Shipment</h1>
 
-      <input
-        value={id}
-        onChange={(e) => setId(e.target.value)}
-        placeholder="Enter tracking ID"
-      />
+      <div className="flex gap-3">
+        <Input
+          placeholder="Enter tracking ID"
+          value={id}
+          onChange={(e) => setId(e.target.value)}
+        />
 
-      <button onClick={handleTrack}>Track</button>
-
-      {data && <pre>{JSON.stringify(data, null, 2)}</pre>}
+        <Button>Track</Button>
+      </div>
     </div>
   );
 }
