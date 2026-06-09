@@ -11,7 +11,6 @@ export default function Navbar() {
         <Link to="/tracking">Tracking</Link>
         <Link to="/service">Service</Link>
         <Link to="/contact">Contact Us</Link>
-        <Link to="/contact">Login</Link>
       </div>
 
       <button className="bg-blue-600 px-4 py-2 rounded-lg text-white">
