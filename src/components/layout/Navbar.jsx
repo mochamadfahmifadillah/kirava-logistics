@@ -9,8 +9,6 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/tracking">Tracking</Link>
-        <Link to="/service">Service</Link>
-       
       </div>
 
       <button className="bg-blue-600 px-4 py-2 rounded-lg text-white">
