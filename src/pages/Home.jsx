@@ -2,21 +2,21 @@ import Navbar from "../components/layout/Navbar";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen overflow-hidden text-white">
+    <div className="relative w-full min-h-screen overflow-hidden text-white">
       <Navbar />
 
-      {/* 🔵 BACKGROUND BASE */}
+      {/* BACKGROUND */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#020617] via-[#0A1F44] to-[#1E3A8A]" />
 
-      {/* 💡 GLOW */}
+      {/* GLOW */}
       <div className="absolute top-[-100px] left-[-100px] w-[500px] h-[500px] bg-blue-500/20 blur-[120px]" />
       <div className="absolute bottom-[-100px] right-[-100px] w-[400px] h-[400px] bg-cyan-400/20 blur-[120px]" />
 
-      {/* ✨ GRID */}
+      {/* GRID */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05)_1px,transparent_1px)] [background-size:40px_40px]" />
 
       {/* CONTENT */}
-      <div className="relative z-10 container mx-auto px-6 lg:px-12 min-h-screen flex flex-col lg:flex-row items-center justify-center gap-12">
+      <div className="relative z-10 w-full min-h-screen flex flex-col lg:flex-row items-center justify-center gap-12 px-6 lg:px-12">
         
         {/* LEFT */}
         <div className="max-w-xl text-center lg:text-left">
