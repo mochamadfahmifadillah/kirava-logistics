@@ -10,10 +10,6 @@ export default function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/tracking">Tracking</Link>
       </div>
-
-      <button className="bg-blue-600 px-4 py-2 rounded-lg text-white">
-        Get Started
-      </button>
     </nav>
   );
 }
