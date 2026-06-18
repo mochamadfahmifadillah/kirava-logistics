@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../components/layout/Navbar";
 
 export default function Home() {
@@ -30,14 +31,20 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
-            <button className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg shadow-lg shadow-blue-500/30 transition">
-              Get Started
-            </button>
+  <Link
+    to="/tracking"
+    className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg shadow-lg shadow-blue-500/30 transition text-center"
+  >
+    Get Started
+  </Link>
 
-            <button className="border border-white/20 px-6 py-3 rounded-lg hover:bg-white/10 transition">
-              Track Package
-            </button>
-          </div>
+  <Link
+    to="/tracking"
+    className="border border-white/20 px-6 py-3 rounded-lg hover:bg-white/10 transition text-center"
+  >
+    Track Package
+  </Link>
+</div>
         </div>
 
         {/* RIGHT */}
