@@ -28,15 +28,6 @@ export default function Tracking() {
 
         <div className="w-full max-w-2xl bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-2xl">
 
-          {/* Back Button */}
-          <div className="mb-6">
-            <Link
-              to="/"
-              className="text-sm text-gray-300 hover:text-white transition"
-            >
-              ← Back to Home
-            </Link>
-          </div>
 
           {/* Header */}
           <div className="text-center mb-8">
@@ -88,9 +79,20 @@ export default function Tracking() {
             </div>
 
           </div>
+          {/* Back Button */}
+          <div className="mb-6">
+            <Link
+              to="/"
+              className="text-sm text-gray-300 hover:text-white transition"
+            >
+              ← Back to Home
+            </Link>
+          </div>
 
         </div>
       </div>
+      
     </div>
+    
   );
 }
