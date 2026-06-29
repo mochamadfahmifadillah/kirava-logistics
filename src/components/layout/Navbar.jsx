@@ -15,6 +15,7 @@ export default function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/tracking">Tracking</Link>
         <Link to="/services">Services</Link>
+        <Link to="/login">Login</Link>
       </div>
     </nav>
   );
