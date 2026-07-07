@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/layout/Navbar";
-
+import Footer from "../components/layout/Footer";
 export default function Home() {
   return (
     <div className="relative w-full min-h-screen overflow-hidden text-white">
@@ -56,6 +56,8 @@ export default function Home() {
           />
         </div>
       </div>
+      <Footer />
     </div>
+    
   );
 }
