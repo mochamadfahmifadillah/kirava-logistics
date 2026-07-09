@@ -80,7 +80,7 @@ export default function Tracking() {
 
           </div>
           {/* Back Button */}
-          <div className="mb-6">
+          <div className="mb-6 text-center mt-6">
             <Link
               to="/"
               className="text-sm text-gray-300 hover:text-white transition"
