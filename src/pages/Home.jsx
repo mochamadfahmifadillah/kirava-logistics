@@ -50,7 +50,7 @@ export default function Home() {
         {/* RIGHT */}
         <div className="flex justify-center">
           <img
-            src="/assets/images/truck.png"
+            src="/assets/truck-image.jpg"
             alt="truck"
             className="w-full max-w-[600px] drop-shadow-[0_0_40px_rgba(59,130,246,0.4)]"
           />
