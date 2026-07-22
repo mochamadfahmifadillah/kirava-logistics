@@ -42,7 +42,7 @@ export default function Home() {
     to="/tracking"
     className="border border-white/20 px-6 py-3 rounded-lg hover:bg-white/10 transition text-center"
   >
-    Track Package
+    Track 
   </Link>
 </div>
         </div>
